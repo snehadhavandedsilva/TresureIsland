@@ -1,0 +1,29 @@
+print('''
+___________
+            '._==_==_=_.'
+            .-\:      /-.
+           | (|:.     |) |
+            '-|:.     |-'
+              \::.    /
+               '::. .'
+                 ) (
+               _.' '._
+          *** `"""""""`
+''')
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.") 
+direction = input("Where do you want to go? L or R \n")
+action = input("Do you want to swim or wait? S or W \n")
+door = input("Which color door you choose? Red Blue or Yellow \n")
+if direction == "L":
+  if action == "W":
+    if door == "Yellow":
+      print("YOU WIN")
+    else:
+      print("GAME OVER")
+  else:
+    print("GAME OVER")
+else:
+  print("GAME OVER")
+
+    
